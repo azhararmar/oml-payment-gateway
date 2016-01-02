@@ -1,5 +1,5 @@
 {
-	"name": "azhararmar/PaymentGateway",
+	"name": "azhararmar/oml-payment-gateway",
 	"description": "PHP Payment Gateway",
 	"license": "MIT",
 	"keywords": ["payment-gateway"],
