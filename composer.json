@@ -1,0 +1,24 @@
+{
+	"name": "azhararmar/PaymentGateway",
+	"description": "PHP Payment Gateway",
+	"license": "MIT",
+	"keywords": ["payment-gateway"],
+	"authors": [
+        {
+            "name": "Ibrahim Azhar Armar",
+            "email": "azhar@iarmar.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oml\\PaymentGateway\\": "src/lib/",
+            "Oml\\PaymentGateway\\Paytronicks\\": "src/payment-gateway/vendor/paytronicks/lib/"
+        }
+    }
+}
