@@ -1,9 +1,12 @@
 Payment Processors
 =============
 
-1. Install using composer
+#### Install using composer
 
-2. Install using GIT
+#### Install using GIT
+```
+https://github.com/azhararmar/oml-payment-gateway.git
+```
 
 
 Paytronicks Configuration
