@@ -14,7 +14,7 @@ https://github.com/azhararmar/oml-payment-gateway.git
 
 Paytronicks Configuration
 -------------
-1.Intialize Payment Object
+Intialize Payment Object
 ```php
 $cardPayment = new Oml\PaymentGateway\Paytronicks\CreditCard();
 $cardPayment->fromArray(array(
@@ -41,14 +41,14 @@ $cardPayment->fromArray(array(
 	'order' => '123'
 ));
 ```
-2.Process payment
+Process Payment
 ```php
 $payment = new Oml\PaymentGateway\Processor\Payment($cardPayment);
 $payment->setHttpClient(new \GuzzleHttp\Client);
 $payment->process();
 ```
 
-3.Get Response
+Get Response
 ```php
 $httpContent = $payment->getHttpContent();
 ```
