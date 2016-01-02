@@ -2,6 +2,9 @@ Payment Processors
 =============
 
 #### Install using composer
+```
+composer.phar require azhararmar/oml-payment-gateway dev-master
+```
 
 #### Install using GIT
 ```
